@@ -1,30 +1,61 @@
-
-
-nav {
-	font-size: 14px;
-	font-family: georgia;
-	text-align: center;
-}
-div {
-	width: 119px;
-	border: solid 1px;
-	float: left;
-	padding: 10px 0;
-	;
-	background-color: #CB3EDF;
-}
-body {<body style="winter-kingdom-798279_1920.jpeg">
-
-}
 header {
-	background-color: #CF8384;
+	border: thick double #32D924;
+	margin-bottom: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	color: #03E50F;
+	text-align: center;
+	font-weight: 100;
+	font-size: 200%;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	background-color: #383838;
+	border-radius: 10px;
+	float: none;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	visibility: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: oblique;
+	text-indent: 70px;
+}
+ul {
+	list-style-type: none;
+	margin: 5px;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	color: #DB1B1E;
+}
+li {
+	float: left;
+	border-right: 2px solid #383838;
+	padding: 14px 16px;
+}
+#nav li a:hover {
+	color: white;
+}
+body {
+	background-color: orange;
 }
 
-a:first-child div {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+.imgright {
+	float: right;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 5px;
+	padding-top: 0px;
+	padding-left: 20px;
 }
-a:last-child div {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+.clearall {
+	clear:both;
 }
+
